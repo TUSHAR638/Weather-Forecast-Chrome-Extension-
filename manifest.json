@@ -1,0 +1,16 @@
+{
+    "name":"Basic Weather App",
+    "description":"An app which Displays Weather",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "./popup.html",
+        "default_icon": "image.png"
+    },
+    "icons":{
+        "16": "sunny.jpg",
+        "48": "cloudy.jpg",
+        "128": "rainy.jpg"
+    },
+    "permissions": ["activeTab"]
+}
